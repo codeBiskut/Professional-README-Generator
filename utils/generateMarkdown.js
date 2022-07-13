@@ -41,7 +41,7 @@ function generateMarkdown(data) {
 
   ## Credits {#credits}
 
-  ${data.github}
+  ${data.github}  
   ${data.email}
 
   ## License {#license}

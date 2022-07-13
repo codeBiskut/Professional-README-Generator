@@ -7,48 +7,48 @@ const generateMarkdown = require('./utils/generateMarkdown.js')
 const questions = [
     {
         type: 'input',
-        message: 'Project title?',
+        message: 'Project title:',
         name: 'title'
     },
     {
         type: 'input',
-        message: 'Project description?',
+        message: 'Provide a short description explaining the what, why, and how of your project:',
         name: 'description'
     },
     {
         type: 'input',
-        message: 'Installation instructions?',
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running:',
         name: 'installation'
     },
     {
         type: 'input',
-        message: 'Usage information?',
+        message: 'Provide instructions for use:',
         name: 'usage'
     },
     {
         type: 'input',
-        message: 'Contribution guidelines?',
+        message: 'Contribution guidelines (other than default Contributor Covenant):',
         name: 'contribution'
     },
     {
         type: 'input',
-        message: 'Test instructions?',
+        message: 'Provide instructions on how to run tests for application:',
         name: 'test'
     },
     {
         type: 'list',
-        message: 'License?',
+        message: 'Choose a license:',
         name: 'license',
         choices: ['Apache 2.0', 'GNU GPLv3', 'GNU GPLv2', 'ISC', 'MIT']
     },
     {
         type: 'input',
-        message: 'GitHub username?',
+        message: 'Enter your GitHub username for credits:',
         name: 'github'
     },
     {
         type: 'input',
-        message: 'Email address?',
+        message: 'Enter your email address for credits:',
         name: 'email'
     }
 ];
@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() { 
-    const fileName = 'new README.md';
+    const fileName = './output/README.md'
 
     inquirer
         .prompt(questions)

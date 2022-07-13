@@ -21,16 +21,6 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-  ## Table of Contents
-
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Badges](#badges)
-  - [How to Contribute](#contribute)
-  - [Tests](#tests)
-
   ## Installation {#installation}
 
   ${data.installation}
@@ -50,6 +40,8 @@ function generateMarkdown(data) {
 
   ## Badges {#badges}
 
+
+  
   ## How to Contribute {#contribute}
 
   ${data.contribution}

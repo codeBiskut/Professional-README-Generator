@@ -15,6 +15,8 @@
 
   Run 'node index.js' and follow the given prompts, and a README.md will be created and placed in the output folder.   
 
+  [Video Demonstration](https://drive.google.com/file/d/1UL5qmHoIxG8E8PexVvPi0O9wA9PbJknZ/view)
+
   ## Credits
   ---
 

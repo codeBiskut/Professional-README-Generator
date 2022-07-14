@@ -59,7 +59,7 @@ function generateMarkdown(data) {
 
   // markdown layout with template literal to enter user data
   return `
-  # ${data.title}
+  # ${data.title}   
 
   ## Description
   ---
